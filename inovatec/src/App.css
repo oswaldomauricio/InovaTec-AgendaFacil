@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.main{
+  display: flex;
+}
+.vector-login-side{
+
+  z-index: -1;
+  background: url('./assets/login-usuario/vector-login-sidebar.png') no-repeat left top fixed;
+  background-position-x: 0%;
+  background-size: 50% 100vh !important;
+  width: 50%;
+}
+.left-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  background: linear-gradient(270.05deg, #16DEEA -26.99%, #4DAEFD 11.76%, #065EA8 99.96%);
+}
+.formulario-login{
+  display: flex;
+  justify-content: center;
+}
+.titulo-login, .paragrafo-login{
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid hsl(246, 93%, 27%);
+  padding: 11px 12px;
+  width: 564px;
+  height: 43px; 
+  background: #FFFFFF;
+  border: 1px solid #CED4DA;
+  border-radius: 6px;
+  margin: 5px 0 0 0;
+}
+input:focus{
+  outline: solid rgb(168, 168, 168) 2px !important;  
+}
+
+input:valid {
+  border-color: green;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+label{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.formulario{
+  margin: 30px 0 0 0;
+}
+.btn-logar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  width: 356px;
+  height: 40px;
+  background: #1E293B;
+  border-radius: 6px;
+  margin: 30px auto;
+}
+.btn-logar{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  display: flex;
+}
+.btn-logar img{
+  padding: 0 7px;  
+}
+a{
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-decoration: none;  
+  margin: 0 auto;
+}
