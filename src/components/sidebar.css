@@ -1,0 +1,80 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.sidebarBgClosed{
+    width: 150px;
+    height: 100vh;
+}
+.sidebarBG{
+    width: 300px;
+    height: 100vh;
+    background: #065EA8;
+    border-radius: 0px 30px 0px 0px;
+    user-select: none;
+    
+}
+.sidebarClosed{
+    width: 300px;
+    height: 100vh;
+    background: #065EA8;
+}
+.LinhaQueSeparar{
+    border: 0.5px solid #004FAA;
+    width: 250px;
+    height: 1px;
+    margin: 45px 25px 60px;
+}
+.perfilUsuario{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    padding: 45px 25px 0;
+}
+.perfilUsuario img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+/*Btns-sidebar*/
+.btnSidebar{
+    list-style: none;
+}
+.btnSidebarIcon{
+    width: 30px;
+    height: 30px;
+    padding: 0 30px 0 25px;
+}
+.btnSidebar li > a{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 18px 0;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+.btnSidebar li > a:hover{
+    background-color: #035294;
+}
+.sidebarLogo{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+    user-select: none;
+}
+.sidebarLogo img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    opacity: 80%;
+}

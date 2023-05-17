@@ -11,7 +11,7 @@
 .vector-login-side{
 
   z-index: -1;
-  background: url('./assets/login-usuario/vector-login-sidebar.png') no-repeat left top fixed;
+  background: url('./assets/login-usuario/vector-login-sidebar.svg') no-repeat left top fixed;
   background-position-x: 0%;
   background-size: 50% 100vh !important;
   width: 50%;
@@ -50,11 +50,11 @@ input{
   margin: 5px 0 0 0;
 }
 input:focus{
-  outline: solid rgb(168, 168, 168) 2px !important;  
+  outline: solid rgb(238, 238, 238) 2px !important;  
 }
 
 input:valid {
-  border-color: green;
+  border-color: #16DEEA;
 }
 
 input:invalid {

@@ -1,0 +1,87 @@
+.mainCard{
+    width: 850px;
+    height: 200px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 30px 30px;
+}
+.imgCompany-card{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 0 15px 0 30px;
+}
+.infoCompany{
+    display: flex;
+    flex-direction: column;
+
+}
+.infoCompany h1{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    color: #3381C7;
+    max-width: 500px;
+    overflow: hidden;
+}
+.infoCompany h2{
+    font-family: 'Noto Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    color: #898989;
+    max-width: 500px;
+}
+.infoCompany p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    color: #898989;
+}
+.infoCompany span{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #898989;
+}
+button{
+    margin: 0 30px 0 0;
+    width: 50px;
+    height: 50px;
+    background: #337AB7;
+    border-radius: 5px;
+    border: none;
+} 
+button:last-child{
+    width: 50px;
+    height: 50px;
+    background: #FE635F;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background: #194f7e;
+}
+button:hover:last-child{
+    background: #b12b27;
+}
+
+button path{
+    width: 30px;
+    height: 30px;
+}
+.mainInfo{
+    display: flex ;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
